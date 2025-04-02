@@ -1,6 +1,6 @@
 <h1 align="center">
   <img loading="lazy" src="Project AIonix/kapak.png"/>
-  <h1/>
+  </h1>
 Project AIonix is an evolving custom firmware designed exclusively for Samsung Galaxy A15.
 What is Project AIonix?
 Project AIonix is a custom firmware in development, tailored for Samsung Galaxy A15. It’s crafted on top of Samsung’s latest One UI framework, enhanced with unique optimizations and features to deliver a top-tier user experience right from the start. Its automated build process fetches the latest firmware, applies custom patches, and creates a ready-to-flash zip package for your device.
