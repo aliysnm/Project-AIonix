@@ -1,40 +1,73 @@
 <h1 align="center">
-  <img loading="lazy" src="Project AIonix/kapak.png"/>
-<h1/>
-Project AIonix is an evolving custom firmware designed exclusively for Samsung Galaxy A15.
-What is Project AIonix?
-Project AIonix is a custom firmware in development, tailored for Samsung Galaxy A15. It’s crafted on top of Samsung’s latest One UI framework, enhanced with unique optimizations and features to deliver a top-tier user experience right from the start. Its automated build process fetches the latest firmware, applies custom patches, and creates a ready-to-flash zip package for your device.
-We warmly welcome contributions, ideas, bug reports, or feature suggestions to shape this project’s future.
+  <img src="Project AIonix/kapak.png" alt="Project AIonix Banner" />
+</h1>
 
-# Features:
+<div align="center">
+  <h2>🚀 Project AIonix</h2>
+  <p>
+    An evolving custom firmware designed exclusively for the <strong>Samsung Galaxy A15</strong>.<br>
+    Powered by Galaxy S24+ software and infused with Galaxy AI magic.
+  </p>
+</div>
 
--Built on the latest Galaxy S24+ software. 
+---
 
--Full Galaxy AI integration  
+## 🧠 What is Project AIonix?
 
--Smooth and premium animations  
+**Project AIonix** is a custom firmware currently in development, crafted specifically for the **Samsung Galaxy A15**.
 
--Seamless AOD clock transitions  
+Built on top of Samsung’s latest **One UI** framework, it enhances the user experience with deep-level optimizations, Galaxy AI features, and an automatic build system that:
 
--Dynamic color tone adjustments  
+- Fetches the latest firmware,
+- Applies custom patches,
+- Generates a flashable package — fully optimized for your device.
 
--Quick image clipping functionality  
+> Built by the community, for the community. Contributions, bug reports, and feature ideas are always welcome!
 
--Multi-user functionality  
+---
 
--Camera privacy controls  
+## ✨ Features
 
--Built-in OTA System Update
+- 🚀 **Built on Galaxy S24+ software**
+- 🧠 **Full Galaxy AI integration**
+- 💫 **Smooth & premium animations**
+- 🖼️ **Always-On-Display Wallpaper**
+- 🎨 **Adaptive color tone**
+- 🔒 **Camera privacy controls**
+- 🔄 **Built-in OTA System Updates (in Magisk Update Button.)**
+- 📹 **HDR10+ Video support**
+- 🎥 **AI Visual processing**
+- ⚙️ **Intelligent optimization**
+- 💻 **Samsung DeX Icon** 
 
--China Device Care App
+---
 
--Additional tweaks (Live blur switch, FOD animation options, secure screenshot toggle, app downgrade feature, Dual Messenger for all apps)  
+## 🛠️ Installation (Coming Soon)
 
-Acknowledgments
+> Stay tuned! A step-by-step guide for flashing Project AIonix will be added soon.
 
-@QuantumA_QuantumProjects for activating Galaxy AI  
+---
 
-@ahmetqwa20 for testing  
+## 🙏 Acknowledgments
 
-Magisk for OTA Updates....
+- **@QuantumA_QuantumProjects** – For activating Galaxy AI  
+- **@ahmetqwa20** – For device testing  
+- **Magisk** – For enabling OTA updates  
 
+---
+
+## 📬 Contributions
+
+Pull requests, issues, and feature suggestions are greatly appreciated. Let’s build something legendary — together! 🔧🔥
+
+---
+
+## 📄 License
+
+This project is open-source. For more details, check the `LICENSE` file.
+
+---
+
+<div align="center">
+  <sub>Made with ❤️ by <strong>aliysnm</strong></sub>
+</div>
