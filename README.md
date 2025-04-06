@@ -19,8 +19,7 @@
 Built on top of Samsung’s latest **One UI** framework, it enhances the user experience with deep-level optimizations, Galaxy AI features, and an automatic build system that:
 
 - Fetches the latest firmware,
-- Applies custom patches,
-- Generates a flashable package — fully optimized for your device.
+- Applies custom patches.
 
 > Built by the community, for the community. Contributions, bug reports, and feature ideas are always welcome!
 
@@ -51,7 +50,7 @@ Built on top of Samsung’s latest **One UI** framework, it enhances the user ex
 ## 🙏 Acknowledgments
 
 - **@QuantumA_QuantumProjects** – For activating Galaxy AI  
-- **@ahmetqwa20** – For device testing  
+- **@ahmetqwa20** – For module testing  
 - **Magisk** – For enabling OTA updates  
 
 ---
