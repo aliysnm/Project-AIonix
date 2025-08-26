@@ -33,12 +33,9 @@
       <a href="#account" data-route="account" class="nav-link" data-i18n="nav.account"></a>
     </nav>
     <div class="header-actions">
-      <div class="lang-switch" role="group" aria-label="Language">
-        <button type="button" class="btn ghost" data-lang="en"><span data-i18n="lang.en"></span></button>
-        <button type="button" class="btn ghost" data-lang="tr"><span data-i18n="lang.tr"></span></button>
-      </div>
       <button type="button" class="btn icon" id="themeToggle" aria-live="polite" aria-label="Toggle theme">
-        <span class="theme-icon">🌞</span>
+        <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.76 4.84l-1.8-1.79L3.17 4.84l1.79 1.79 1.8-1.79zm10.48 0l1.79-1.79 1.79 1.79-1.79 1.79-1.79-1.79zM12 2h0v3h0V2zm0 17h0v3h0v-3zM4.84 17.24l-1.8 1.8 1.8 1.79 1.79-1.79-1.79-1.8zM19.16 17.24l1.79 1.8-1.79 1.79-1.79-1.79 1.79-1.8zM2 12h3v0H2v0zm17 0h3v0h-3v0zM12 7a5 5 0 100 10 5 5 0 000-10z"/></svg>
+        <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z"/></svg>
       </button>
       <a href="#login" class="btn primary" id="authBtn"></a>
     </div>
@@ -57,7 +54,11 @@
     <div class="footer-left">
       <span data-i18n="brand.name"></span> • <span id="year"></span>
     </div>
-    <div class="footer-right">
+    <div class="footer-right" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" class="btn ghost" data-lang="en"><span data-i18n="lang.en"></span></button>
+        <button type="button" class="btn ghost" data-lang="tr"><span data-i18n="lang.tr"></span></button>
+      </div>
       <a class="footer-link" href="#privacy" data-i18n="nav.privacy"></a>
       <a class="footer-link" href="#terms" data-i18n="nav.terms"></a>
       <a class="footer-link" href="#cookies" data-i18n="nav.cookies"></a>
@@ -111,18 +112,17 @@ langButtons.forEach(btn => {
 })
 
 const themeToggle = document.getElementById('themeToggle')
-const updateThemeIcon = () => {
+const updateThemeAria = () => {
   const v = store.getState().theme
-  themeToggle.querySelector('.theme-icon').textContent = v === 'dark' ? '🌙' : '🌞'
   themeToggle.setAttribute('aria-label', v === 'dark' ? t('a11y.lightTheme') : t('a11y.darkTheme'))
 }
 themeToggle.addEventListener('click', () => {
   const next = store.getState().theme === 'dark' ? 'light' : 'dark'
   document.documentElement.setAttribute('data-theme', next)
   store.setTheme(next)
-  updateThemeIcon()
+  updateThemeAria()
 })
-updateThemeIcon()
+updateThemeAria()
 
 const authBtn = document.getElementById('authBtn')
 const updateAuthBtn = () => {
